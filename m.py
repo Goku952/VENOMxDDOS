@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('6761128167:AAGjtCm56qcnfkQLLsDM2KiSexbJRcxKLy8')
 
 # Admin user IDs
-admin_id = ["your id"]
+admin_id = [5430569954""]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -63,10 +63,10 @@ def clear_logs():
     try:
         with open(LOG_FILE, "r+") as file:
             if file.read() == "":
-                response = "Logs are already cleared. No data found ❌."
+                response = "Logs are already cleared. No data found 🤬🤬🤬."
             else:
                 file.truncate(0)
-                response = "Logs cleared successfully ✅"
+                response = "Logs cleared successfully 😻😻😻👌"
     except FileNotFoundError:
         response = "No logs found to clear."
     return response
@@ -149,7 +149,7 @@ def add_user(message):
                 else:
                     response = "Failed to set approval expiry date. Please try again later."
             else:
-                response = "User already exists 🤦‍♂️."
+                response = "User already exists 🙅🙅🤦."
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
