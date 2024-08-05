@@ -42,7 +42,7 @@ async def main():
 
         logging.info("Starting the bot...")
         process = start_bot()
-        await notify_admin("🚀 Bot is starting...")
+        await notify_admin("🚀🤤🥴🆗💥 maa chud ni starting...💥💥")
 
         while process.poll() is None:
             await asyncio.sleep(5)
