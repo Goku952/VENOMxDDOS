@@ -63,10 +63,10 @@ def clear_logs():
     try:
         with open(LOG_FILE, "r+") as file:
             if file.read() == "":
-                response = "Logs are already cleared. No data found ❌."
+                response = "Logs are already cleared. No data found 🤬🤬🤬."
             else:
                 file.truncate(0)
-                response = "Logs cleared successfully ✅"
+                response = "Logs cleared successfully 💥💥"
     except FileNotFoundError:
         response = "No logs found to clear."
     return response
@@ -149,7 +149,7 @@ def add_user(message):
                 else:
                     response = "Failed to set approval expiry date. Please try again later."
             else:
-                response = "User already exists 🤦‍♂️."
+                response = "User already exists chud ge tare ma 🤤🤤🥴."
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
@@ -187,7 +187,7 @@ def remove_user(message):
                 response = f"User {user_to_remove} not found in the list ❌."
         else:
             response = '''Please Specify A User ID to Remove. 
-✅ Usage: /remove <userid>'''
+✅ kis ko chodu: /remove <userid>'''
     else:
         response = "You have not purchased yet purchase now from:- @venomXcrazy 🙇."
 
@@ -201,12 +201,12 @@ def clear_logs_command(message):
             with open(LOG_FILE, "r+") as file:
                 log_content = file.read()
                 if log_content.strip() == "":
-                    response = "Logs are already cleared. No data found ❌."
+                    response = "Logs are already cleared. No data found 🤬🤬🤬."
                 else:
                     file.truncate(0)
-                    response = "Logs Cleared Successfully ✅"
+                    response = "Logs Cleared Successfully 🤤🤤🥴🥴"
         except FileNotFoundError:
-            response = "Logs are already cleared ❌."
+            response = "Logs are already cleared 🤬🤬."
     else:
         response = "You have not purchased yet purchase now from :- @venomXcrazy ❄."
     bot.reply_to(message, response)
@@ -223,9 +223,9 @@ def clear_users_command(message):
                     response = "USERS are already cleared. No data found ❌."
                 else:
                     file.truncate(0)
-                    response = "users Cleared Successfully ✅"
+                    response = "users Cleared Successfully 🤤🤤🥴🥴💥"
         except FileNotFoundError:
-            response = "users are already cleared ❌."
+            response = "users are already cleared 🤬🤬🤬."
     else:
         response = "ꜰʀᴇᴇ ᴋᴇ ᴅʜᴀʀᴍ ꜱʜᴀʟᴀ ʜᴀɪ ᴋʏᴀ ᴊᴏ ᴍᴜ ᴜᴛᴛʜᴀ ᴋᴀɪ ᴋʜɪ ʙʜɪ ɢᴜꜱ ʀʜᴀɪ ʜᴏ ʙᴜʏ ᴋʀᴏ ꜰʀᴇᴇ ᴍᴀɪ ᴋᴜᴄʜ ɴʜɪ ᴍɪʟᴛᴀ ʙᴜʏ:- @venomXcrazy 🙇."
     bot.reply_to(message, response)
@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @venomXcrazy"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.💥💥💥💥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @venomXcrazy"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -307,7 +307,7 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
-            if time > 600:
+            if time bgmi ki ma 600 second chuda ge > 600:
                 response = "Error: Time interval must be less than 600."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
@@ -348,7 +348,7 @@ def show_command_logs(message):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text ='''🤖 Available commands:
-💥 /bgmi : Method For Bgmi Servers. 
+💥 /bgmi : Bgmi ki server ki maa chud gaye Servers ta maa ki chut. 
 💥 /rules : Please Check Before Use !!.
 💥 /mylogs : To Check Your Recents Attacks.
 💥 /plan : Checkout Our Botnet Rates.
@@ -400,9 +400,9 @@ Vip 🌟 :
 -> Concurrents Attack : 5
 
 Pr-ice List💸 :
-Day-->80 Rs
-Week-->400 Rs
-Month-->1000 Rs
+Day-->free lala lu Gareeb ha par tu gaund Dadi yo
+Week-->free lala lu Gareeb ha par tu gaund Dadi yo
+Month-->free lala lu Gareeb ha par tu gaund Dadi yo
 '''
     bot.reply_to(message, response)
 
@@ -411,8 +411,8 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Admin Commands Are Here!!:
 
-💥 /add <userId> : Add a User.
-💥 /remove <userid> Remove a User.
+💥 /add <userId> : maa chude ja aa ge.
+💥 /remove <userid> Maa chud chuki ha.
 💥 /allusers : Authorised Users Lists.
 💥 /logs : All Users Logs.
 💥 /broadcast : Broadcast a Message.
